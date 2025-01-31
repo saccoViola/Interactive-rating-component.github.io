@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Interactive rating component</title>
+
 
   <!--font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,27 +14,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <div class="main-container" id="first-container">
+  <header>
+    <h1 class="visually-hidden">Interactive Rating</h1>
+  </header>
+  <main class="main-container" id="first-container">
   <!-- Rating state start -->
+
     <img class="star" src="images/icon-star.svg" alt="icon-star">
-    <h1>How did we do?</h1>
+    <h2>How did we do?</h2>
 
     <p>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
+    <form action="">
+      <div id="buttons">
 
-   <div id="buttons">
+      </div>
 
-   </div>
-
-    <button class="submit-button" id="submit-button">Submit</button>
-  </div>
+      <button class="submit-button" id="submit-button">Submit</button>
+    </form>
+  </main>
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="main-container" id="second-container">
+  <section class="main-container" id="second-container" aria-hidden="true">
+
     <div class="img-container">
       <img class="thank-you-illustration" src="images/illustration-thank-you.svg" alt="illustration-thank-you">
     </div>
@@ -42,12 +49,13 @@
       <span id="selected-number"> </span> 
     </div>
 
-    <h2>Thank you!</h2>
+    <h3>Thank you!</h3>
     <p>
       We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!
     </p>
-  </div>
+
+  </section>
   <!-- Thank you state end -->
 
   

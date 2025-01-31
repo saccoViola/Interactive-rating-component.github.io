@@ -6,6 +6,17 @@
     color: hsl(228, 45%, 44%); 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 body{
     background-color: hsl(216, 12%, 8%);
     font-size:15px;
@@ -36,9 +47,10 @@ p{
     width: 350px;   
 }
 
-h1{
+h2{
     color:hsl(0, 0%, 100%);
     font-weight: 700;
+    font-size: 30px;
 }
 
 #buttons{
@@ -102,7 +114,7 @@ h1{
     margin: auto;
 }
 
-h2{
+h3{
     color:hsl(0, 0%, 100%);
     margin-top:40px;
     
