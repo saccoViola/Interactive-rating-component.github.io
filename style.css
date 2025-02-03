@@ -114,12 +114,26 @@ h2{
     margin: auto;
 }
 
+.selected-button{
+    background-color:hsl(25, 89%, 53%);
+    color:hsl(213, 19%, 15%);
+}
+
 h3{
     color:hsl(0, 0%, 100%);
     margin-top:40px;
     
 }
 
-@media(max-width: 375px){
-
+@media(max-width: 600px){
+    .main-container{
+        padding: 20px;
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .submit-button{
+        width: 300px;
+       
+    }
 }
